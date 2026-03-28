@@ -14,8 +14,6 @@ if "valor" not in st.session_state:
     st.session_state.valor = 0.0
 if "descricao" not in st.session_state:
     st.session_state.descricao = ""
-if "tipo" not in st.session_state:
-    st.session_state.tipo = "Saída"
 if "forma" not in st.session_state:
     st.session_state.forma = "Pix"
 if "categoria" not in st.session_state:
